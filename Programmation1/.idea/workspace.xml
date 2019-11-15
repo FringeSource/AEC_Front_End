@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec8ee65b-5e74-4ce3-83dc-89ff8ab312e6" name="Default Changelist" comment="" />
+    <list default="true" id="197cd6e1-5c7d-481d-8fc4-a22301ae636b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,15 +22,16 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1SM421nJZeGwxmOFNU2YmEs2EaK" />
+  <component name="ProjectId" id="1Td467LnWnJYlagvSwl882OIBmL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="js.last.introduce.type" value="VAR" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -50,18 +51,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ec8ee65b-5e74-4ce3-83dc-89ff8ab312e6" name="Default Changelist" comment="" />
-      <created>1571359919803</created>
+      <changelist id="197cd6e1-5c7d-481d-8fc4-a22301ae636b" name="Default Changelist" comment="" />
+      <created>1573776459973</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1571359919803</updated>
-      <workItem from="1571359922841" duration="1460000" />
-      <workItem from="1571958356586" duration="23000" />
-      <workItem from="1573176277796" duration="5682000" />
-      <workItem from="1573185407059" duration="17000" />
-      <workItem from="1573336181529" duration="814000" />
-      <workItem from="1573431680745" duration="753000" />
-      <workItem from="1573775799287" duration="659000" />
+      <updated>1573776459973</updated>
+      <workItem from="1573776461210" duration="7868000" />
     </task>
     <servers />
   </component>
@@ -73,9 +68,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
