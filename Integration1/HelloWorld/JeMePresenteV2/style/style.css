@@ -1,0 +1,32 @@
+/* TestCSS.css */
+/* Programmé par Cédric Vigneau */
+/* Le 21 novembre 2019 */
+
+body{
+   width: 900px;
+    margin: auto;
+    background: url("../img/fondpale.jpg") no-repeat center;
+    background-size: cover;
+    background-color: cornflowerblue;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h1, h2{
+    color: maroon;
+    text-align: center;
+}
+ul, ol{
+       list-style-position: inside;
+}
+
+p{
+    font-size: 14px;
+    text-align: justify;
+}
