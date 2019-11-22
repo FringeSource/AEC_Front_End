@@ -8,6 +8,7 @@ body{
     background: url("../img/fondpale.jpg") no-repeat center;
     background-size: cover;
     background-color: cornflowerblue;
+    text-align: center;
 }
 
 h1{
@@ -19,14 +20,50 @@ h2{
 }
 
 h1, h2{
-    color: maroon;
+    color: firebrick;
     text-align: center;
 }
-ul, ol{
-       list-style-position: inside;
+ul, ol, li{
+    margin: auto;
+    list-style-position: inside;
+    color: maroon;
+    font-size: 16px;
 }
 
 p{
     font-size: 14px;
     text-align: justify;
 }
+
+a{
+    text-decoration: none;
+    color: lightblue;
+}
+
+a:visited{
+   text-decoration: none;
+    color: darkblue;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    font-size: 18px;
+    color: forestgreen;
+    margin: auto;
+}
+
+img{
+    border-radius: 30px;
+
+}
+img:hover{
+    box-shadow: 5px 5px #888888;
+}
+
+
+
