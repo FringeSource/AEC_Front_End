@@ -1,0 +1,40 @@
+/* Exercices de couleur du chapitre 2 en Programmation1.css */
+/* Programmé par Cédric Vigneau */
+/* Le 23 novembre 2019 */
+
+
+/* Style pour l'exercice 12 */
+
+.masculin{
+    color:green;
+}
+
+.feminin{
+    color: magenta;
+}
+
+/* Style pour l'exercice 22 */
+
+.texteOrange22{
+    color: orangered;
+}
+
+.texteJaune22{
+    color: yellow;
+}
+
+.texteRose22{
+    color: lightpink;
+}
+
+.fondVert22{
+    background-color: forestgreen;
+}
+
+.fondBleu22{
+    background-color: cornflowerblue;
+}
+
+.fondMauve22{
+    background-color: rebeccapurple;
+}

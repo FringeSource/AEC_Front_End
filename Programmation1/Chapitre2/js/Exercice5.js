@@ -8,11 +8,14 @@ var temperature;
 //Demander la température
 temperature = Number(prompt("Quelle est la température actuelle en degrés Celsius?"));
 
-if(temperature < -10 && temperature > -40){
-    reponse = "HAAAAAAAAA! Il fait froid";
+if(temperature <= -10 && temperature >= -40){
+    document.write("HAAAAAAAAA! Il fait froid");
+}
+else if(temperature < -40){
+    document.write("C'est pas humain!");
 }
 else{
-    reponse = "Enfin une belle journée!";
+    document.write("Enfin une belle journée!");
 }
 
 console.log(reponse);
