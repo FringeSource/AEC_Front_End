@@ -32,7 +32,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="VAR" />
     <property name="jsx.switch.disabled" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Integration1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -60,7 +60,9 @@
       <updated>1573776459973</updated>
       <workItem from="1573776461210" duration="10340000" />
       <workItem from="1574378965158" duration="376000" />
-      <workItem from="1574514528486" duration="16233000" />
+      <workItem from="1574514528486" duration="16796000" />
+      <workItem from="1574531713172" duration="89000" />
+      <workItem from="1574983742069" duration="11407000" />
     </task>
     <servers />
   </component>
