@@ -10,9 +10,7 @@
 // Faire le programme qui lit la valeur de l’indice de pollution atmosphérique et indique quelle liste devrait être
 // affichée.
 
-var listeA;
-var listeB;
-var listeC;
+
 var indice;
 
 //Demander l'indice de pollution

@@ -13,11 +13,14 @@
       <executable />
     </execution>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Programmation1" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -62,7 +65,12 @@
       <workItem from="1574378965158" duration="376000" />
       <workItem from="1574514528486" duration="16796000" />
       <workItem from="1574531713172" duration="89000" />
-      <workItem from="1574983742069" duration="11407000" />
+      <workItem from="1574983742069" duration="12031000" />
+      <workItem from="1575587771768" duration="9114000" />
+      <workItem from="1576030785400" duration="493000" />
+      <workItem from="1576192419675" duration="852000" />
+      <workItem from="1576195927864" duration="98000" />
+      <workItem from="1576196064549" duration="9753000" />
     </task>
     <servers />
   </component>
