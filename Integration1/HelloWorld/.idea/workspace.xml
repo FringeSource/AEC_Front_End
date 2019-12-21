@@ -30,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JeMePresenteV2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
@@ -79,6 +79,7 @@
       <workItem from="1573315317576" duration="4284000" />
       <workItem from="1573336079395" duration="100000" />
       <workItem from="1576936242852" duration="4178000" />
+      <workItem from="1576944316587" duration="2097000" />
     </task>
     <servers />
   </component>

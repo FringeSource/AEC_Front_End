@@ -1,0 +1,60 @@
+/* HanSoloFormatif.css */
+/* Programmé par Cédric Vigneau */
+/* Le 21 décembre 2019 */
+
+body{
+    width: 1000px;
+    background: url("../img/etoileMort.jpg") no-repeat;
+    background-color: black;
+    margin: auto;
+}
+
+@font-face {
+    font-family: starJedi;
+    src: url("../font/Starjedi.ttf");
+}
+
+h1{
+    font-size: 140px;
+    color: yellow;
+    font-family: starJedi;
+    margin: 0;
+    text-align: center;
+}
+
+h2, h3, h4{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-size: 72px;
+}
+
+h3{
+    font-size: 60px;
+}
+
+h4{
+    font-size: 44px;
+}
+
+p{
+    text-align: justify;
+    color: white;
+    font-size: 16px;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+.films{
+    color: yellow;
+}
+
+a{
+    text-decoration: underline;
+    color: white;
+}
