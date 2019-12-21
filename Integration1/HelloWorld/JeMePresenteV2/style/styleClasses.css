@@ -1,0 +1,50 @@
+/* TestCSSClasses.css */
+/* Programmé par Cédric Vigneau */
+/* Le 21 décembre 2019 */
+
+#etudes{
+    color: green;
+}
+
+#sports{
+    color: red;
+}
+
+#loisirs{
+    color: blue;
+}
+
+#reve{
+    color: purple;
+}
+
+.belleImage{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.belleImage:hover{
+    box-shadow: 0 0 2px rgba(0, 140, 186, 0.5);
+}
+
+@font-face{
+    font-family: pourH1;
+    src: url("porky_s/PORKYS_.TTF");
+}
+
+@font-face{
+    font-family: pourH2;
+    src: url("cf_glitch_city/CFGlitchCity-Regular.ttf")
+}
+
+.exercice8{
+    color: orangered;
+    font-size: large;
+    font-family: pourH1;
+}
+
+.exercice9{
+    color: indigo;
+    font-size: medium;
+    font-family: pourH2;
+}
