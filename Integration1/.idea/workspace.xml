@@ -17,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -26,12 +27,14 @@
   <component name="ProjectId" id="1Twm4erBazPPhFSuLfqVsFHdZtU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Programmation1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Documents\GitHubProjects\AEC_Front_End\Integration1\Bootstrap" />
       <recent name="F:\Documents\GitHubProjects\AEC_Front_End\Integration1\HelloWorld\JeMePresenteV2" />
       <recent name="F:\Documents\GitHubProjects\AEC_Front_End\Integration1\HelloWorld\JeMePresenteV2\HTML" />
     </key>
@@ -62,6 +65,8 @@
       <workItem from="1574514504549" duration="17000" />
       <workItem from="1574525566982" duration="889000" />
       <workItem from="1574531698399" duration="11000" />
+      <workItem from="1578749999748" duration="9539000" />
+      <workItem from="1579044652294" duration="6368000" />
     </task>
     <servers />
   </component>

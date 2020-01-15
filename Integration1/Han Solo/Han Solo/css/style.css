@@ -4,7 +4,8 @@
 
 body{
     width: 1000px;
-    background: url("../img/etoileMort.jpg") no-repeat;
+    background: url("../img/etoileMort.jpg");
+    background-repeat: no-repeat;
     background-color: black;
     margin: auto;
 }
