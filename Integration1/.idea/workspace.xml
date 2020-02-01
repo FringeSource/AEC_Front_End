@@ -30,13 +30,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_ON_COMMIT_AND_PUSH" value="false" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1Twm4erBazPPhFSuLfqVsFHdZtU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -45,6 +47,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -86,7 +89,7 @@
       <workItem from="1579836803820" duration="4555000" />
       <workItem from="1580421273064" duration="68000" />
       <workItem from="1580512891617" duration="9019000" />
-      <workItem from="1580563848315" duration="4362000" />
+      <workItem from="1580563848315" duration="22643000" />
     </task>
     <servers />
   </component>
