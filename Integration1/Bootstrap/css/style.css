@@ -31,24 +31,23 @@ hr.blanc {
 }
 
 .header{
-    height: 400px;
     background: linear-gradient(rgba(45, 52, 54,0.75), rgba(44, 62, 80,0.5)), url("../media/1333513-water-elemental-wallpaper-1920x1080-hd.jpg");
     background-size: cover;
     background-position: center;
     background-color: black;
     opacity: 0.75;
+    height: 60vh;
 }
 
 .sectionBleue{
     background-color: #43e2f0;
-    height: 250px;
 }
 
 .sectionBlanche{
     background-color: white;
-    height: 250px;
 }
 
 .bleuIcone{
     color: #43e2f0!important;
 }
+
