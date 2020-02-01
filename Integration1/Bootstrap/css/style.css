@@ -1,7 +1,3 @@
-.row {
-    height: 100px;
-}
-
 .red{
     background-color: red;
 }
@@ -16,4 +12,43 @@
 
 .yellow{
     background-color: yellow;
+}
+
+hr.bleue {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #43e2f0;
+}
+
+hr.blanc {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    max-width: 50px;
+    border-width: 3px;
+    border-color: white;
+}
+
+.header{
+    height: 400px;
+    background: linear-gradient(rgba(45, 52, 54,0.75), rgba(44, 62, 80,0.5)), url("../media/1333513-water-elemental-wallpaper-1920x1080-hd.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    opacity: 0.75;
+}
+
+.sectionBleue{
+    background-color: #43e2f0;
+    height: 250px;
+}
+
+.sectionBlanche{
+    background-color: white;
+    height: 250px;
+}
+
+.bleuIcone{
+    color: #43e2f0!important;
 }
