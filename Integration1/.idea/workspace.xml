@@ -27,11 +27,14 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Integration1" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -47,7 +50,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -90,7 +93,14 @@
       <workItem from="1580421273064" duration="68000" />
       <workItem from="1580512891617" duration="9019000" />
       <workItem from="1580563848315" duration="25030000" />
-      <workItem from="1580703374054" duration="23000" />
+      <workItem from="1580703374054" duration="182000" />
+      <workItem from="1580858854066" duration="13357000" />
+      <workItem from="1581033511703" duration="8000" />
+      <workItem from="1581287497484" duration="860000" />
+      <workItem from="1581467236844" duration="8874000" />
+      <workItem from="1581550436327" duration="46000" />
+      <workItem from="1581560001321" duration="453000" />
+      <workItem from="1581636123087" duration="16136000" />
     </task>
     <servers />
   </component>

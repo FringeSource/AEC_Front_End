@@ -1,0 +1,41 @@
+/* style.css */
+/* Programmé par Cédric Vigneau */
+/* Le 4 février 2020 */
+
+body{
+    background-color: black;
+}
+
+.menu{
+    color: #6c6c6c;
+    font-weight: bold;
+}
+
+.banniere{
+    background: url("../img/witcherBanniere.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 13%;
+
+}
+
+@font-face {
+    font-family: witcherPolice;
+    src: url("../font/Thewitcher-jnOj.ttf");
+}
+
+h1, h2{
+    font-family: witcherPolice;
+    color: white;
+}
+
+hr {
+    background: #353434;
+    height: 1px;
+    border-style: none;
+    margin: 2% 0;
+}
+
+.logos{
+    color: #ffffff!important;
+}

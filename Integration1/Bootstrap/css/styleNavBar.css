@@ -1,0 +1,19 @@
+.menu{
+    background-color: #691414;
+}
+
+nav a{
+    color: #716673;
+}
+
+a:hover{
+    color: white;
+}
+
+.fas{
+    color: #716673;
+}
+
+.navbar-nav li.active > a{
+    color: white;
+}
