@@ -48,7 +48,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Programmation1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
@@ -100,7 +100,9 @@
       <workItem from="1581467236844" duration="8874000" />
       <workItem from="1581550436327" duration="46000" />
       <workItem from="1581560001321" duration="453000" />
-      <workItem from="1581636123087" duration="16562000" />
+      <workItem from="1581636123087" duration="16781000" />
+      <workItem from="1581771784451" duration="20000" />
+      <workItem from="1582377776842" duration="2587000" />
     </task>
     <servers />
   </component>

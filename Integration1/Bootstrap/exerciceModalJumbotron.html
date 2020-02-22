@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- index.html -->
+<!-- Par Cédric Vigneau -->
+<!-- Le 2020-02-22
+ -->
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Exercice Modal - Jumbotron</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="icon" type="image/png" href="media/Fringe%20Channel%20Logo%20V.1.png" />
+
+</head>
+<body>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Ouvrir le modal
+</button>
+
+<div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Assistez au match de l'année!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="jumbotron">
+                    <h1 class="display-4">Les Nordiques sont de retour!</h1>
+                    <p class="lead">Depuis le temps que les fans le demandent, voici le match tant attendu <strong>NORDIQUES VS CANADIENS!</strong>.</p>
+                    <hr class="my-4">
+                    <p><strong>Quand</strong> : Le 22 février 2020.</p>
+                    <p class="text-center"><img src="media/logoNordiques.png" height="16" width="24"/> Nordiques</p>
+                    <p class="text-center">VS</p>
+                    <p class="text-center"><img src="media/logoCanadiens.png" height="16" width="24"/> Canadiens</p>
+                    <img src="media/imageHockey.jpg" class="img-thumbnail"/>
+                    <br>
+                    <p class="lead">
+                        <a class="btn btn-primary btn-lg" href="#" role="button">Informations</a>
+                    </p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Réservez votre billet</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="bootstrap-4.0.0-dist/js/jquery-3.4.1.js"></script>
+<script src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
+
+</body>
+</html>
