@@ -47,6 +47,22 @@ a:hover{
     background-size: cover;
 }
 
+.parallaxAVenir{
+    background-image: url("../img/whitewp.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxEnVedette{
+    background-image: url("../img/redwhitewp.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 hr{
     margin-bottom: 30px;
     margin-top: 30px;
@@ -75,6 +91,22 @@ p {
     font-size: 1.25rem;
 }
 
+.zoom{
+    transition: transform .2s;
+}
+
+.zoom:hover{
+    transform: scale(1.10);
+}
+
+figcaption{
+    background-color: white;
+    border-width: 3px;
+    border-style: solid;
+    max-width: 250px;
+    border-color: lightgrey;
+    font-family: "Times New Roman";
+}
 @media only screen and (max-width: 991px){
     .parallaxAccueil{
         background-image: url("../img/peluches.jpg");
@@ -93,6 +125,11 @@ p {
     h5{
         font-size: 1.5rem;
     }
+
+    h3{
+        font-size: 1rem;
+    }
+
 }
 
 @media only screen and (max-width: 575px){
@@ -116,6 +153,14 @@ p {
 
     .cell{
         min-height: 100%;
+    }
+
+    .cellf{
+        min-height: 75%;
+    }
+
+    .card-body a{
+        font-size: 0.75rem;
     }
 
 }
