@@ -1,0 +1,104 @@
+/* style.css */
+/* Programmé par Cédric Vigneau */
+/* Le 13 mars 2020 */
+
+html, body {
+    margin:0;
+    height:100%;
+    margin-top: 30px;
+}
+
+.fab, .fas{
+    color: darkred;
+}
+
+.menu{
+    background-color: white;
+}
+
+nav a{
+    color: black;
+}
+
+a:hover{
+    color: darkred;
+}
+
+.navbar-nav li.active > a{
+    color: darkred;
+}
+
+.parallaxAccueil{
+    background-image: url("../img/woody-toy-story-4-1o.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+}
+
+.parallaxHistoire{
+    background-image: url("../img/fond.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+hr{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    max-width: 100px;
+    border-width: 3px;
+    border-color: black;
+}
+
+.hbleu{
+    background-color: rgba(77,190,255,.70);
+}
+
+.hblanc{
+    background-color: rgba(255, 255, 255, .70);
+}
+
+.blanc{
+    color: white;
+}
+
+.bleu{
+    color: rgba(77,190,255,1);
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 991px){
+    .parallaxAccueil{
+        background-image: url("../img/peluches.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 10%;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .parallaxAccueil{
+        background-image: url("../img/buzz.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 10%;
+    }
+    p{
+        font-size: 0.75rem;
+    }
+
+}

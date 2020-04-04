@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- index.html -->
+<!-- Par Cédric Vigneau -->
+<!-- Le 2020-03-17 -->
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Projet final</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/lighting-bolt-png-1.png" />
+
+</head>
+<body>
+
+<!-- Barre de navigation -->
+<nav class="navbar fixed-top navbar-expand-lg menu align-items-center">
+    <a class="navbar-brand" href="index.html"><img src="img/Fringe%20Show%20Titre.jpg" height="30px" width="46px" alt="Logo Fringe Show"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-chevron-circle-down"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" href="boutique.html">Boutique</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    À propos<span class="sr-only">(current)</span></a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#histoire">Notre histoire</a>
+                    <a class="dropdown-item" href="#">Rencontrez le fondateur</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#contact">Contact</a>
+                </div>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-2x fa-facebook-square"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-2x fa-instagram-square"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-2x fa-youtube-square"></i></a></li>
+        </ul>
+    </div>
+</nav>
+
+<header class="h-100" id="histoire">
+    <div class="container-fluid parallaxHistoire p-0">
+        <div class="row no-gutters h-25 align-content-center hblanc">
+            <div class="col text-center"><h1 class="font-weight-bold font-italic">Notre histoire</h1></div>
+        </div>
+        <div class="row no-gutters h-25 hbleu align-items-center p-2">
+            <div class="col-md-2 col-2 text-center p-3"><i class="fas fa-3x fa-fast-backward blanc"></i></div>
+            <div class="col-md-8 col-10 text-justify p-3"><p class="text-white font-weight-bold">L'histoire du Fringe Show commence en 2015 alors que Cédric Vigneau, désirant débuter un projet créatif après plusieurs années d'inactivité, lance un podcast visuel sur YouTube. Il est à ce moment inspiré par le cinéaste Kevin Smith.</p></div>
+        </div>
+        <div class="row no-gutters h-25 hblanc align-items-center p-2">
+            <div class="col-md-2 col-2 text-center p-3"><i class="fas fa-3x fa-play bleu"></i></div>
+            <div class="col-md-8 col-10 text-justify p-3"><p class="bleu font-weight-bold">Après 4 épisodes et un sentiment d'insatisfaction, il décide de concentrer sa chaîne sur autre chose: les reviews de figurines, objets de collection et modèles LEGO. C'est alors que naît le Fringe Channel, projet le plus important de son histoire qui saura rejoindre des gens de partout au Québec et en France!</p></div>
+        </div>
+        <div class="row no-gutters h-25 hbleu align-items-center p-2">
+            <div class="col-md-2 col-2 text-center p-3"><i class="fas fa-3x fa-pause blanc"></i></div>
+            <div class="col-md-8 col-10 text-justify p-3"><p class="text-white font-weight-bold">Puis finalement, à l'automne 2019, Cédric ramène le Fringe Show dans un format un peu plus professionnel avec une diffusion en direct sur Twitch avant d'être rediffusé sur toutes les autres plateformes.</p></div>
+        </div>
+    </div>
+</header>
+
+<footer id="contact">
+    <div class="container-fluid">
+        <div class="row no-gutters align-items-center">
+            <div class="col-md-2 offset-md-1 pt-5 pl-5"><p class="font-weight-light">Pour des demandes spéciales, questions ou partenariats, envoyez-nous un message!</p></div>
+            <div class="col-md-8 p-5">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Votre adresse email *</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrez l'adresse courriel où nous pouvons vous contacter">
+                        <small id="emailHelp" class="form-text text-muted">* Obligatoire.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="sujet">Sujet</label>
+                        <input type="text" class="form-control" id="sujet"></input>
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Description</label>
+                        <textarea class="form-control" id="description" rows="4"></textarea>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="copieMessage">
+                        <label class="form-check-label" for="copieMessage">M'envoyer une copie du message</label>
+                    </div>
+                    <button type="submit" class="btn btn-info">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+<script src="bootstrap-4.0.0-dist/js/jquery-3.4.1.js"></script>
+<script src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
+
+</body>
+</html>
