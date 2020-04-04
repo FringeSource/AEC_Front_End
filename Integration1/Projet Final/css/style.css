@@ -30,7 +30,7 @@ a:hover{
 
 .parallaxAccueil{
     background-image: url("../img/woody-toy-story-4-1o.jpg");
-    height: 100vh;
+    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -182,7 +182,7 @@ figcaption{
 @media only screen and (max-width: 575px){
     .parallaxAccueil{
         background-image: url("../img/buzz.jpg");
-        height: 100vh;
+        height: 100%;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
