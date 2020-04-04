@@ -107,6 +107,11 @@ figcaption{
     border-color: lightgrey;
     font-family: "Times New Roman";
 }
+
+.boutiqueBg{
+    background-color: lightgrey;
+}
+
 @media only screen and (max-width: 991px){
     .parallaxAccueil{
         background-image: url("../img/peluches.jpg");
