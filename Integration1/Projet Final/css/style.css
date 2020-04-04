@@ -85,6 +85,14 @@ p {
         background-size: cover;
         padding: 10%;
     }
+
+    p{
+        font-size: 1rem;
+    }
+
+    h5{
+        font-size: 1.5rem;
+    }
 }
 
 @media only screen and (max-width: 575px){
@@ -97,8 +105,17 @@ p {
         background-size: cover;
         padding: 10%;
     }
+
     p{
         font-size: 0.75rem;
+    }
+
+    h5{
+        font-size: 1rem;
+    }
+
+    .cell{
+        min-height: 100%;
     }
 
 }
