@@ -19,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -37,7 +37,7 @@
     <property name="jsx.switch.disabled" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -86,7 +86,25 @@
       <workItem from="1581550484508" duration="8384000" />
       <workItem from="1581771808271" duration="22198000" />
       <workItem from="1582070250767" duration="4658000" />
-      <workItem from="1582240781319" duration="6987000" />
+      <workItem from="1582240781319" duration="7251000" />
+      <workItem from="1582377755525" duration="18000" />
+      <workItem from="1582379394664" duration="16000" />
+      <workItem from="1582379495489" duration="3000" />
+      <workItem from="1582676226540" duration="7759000" />
+      <workItem from="1582846857775" duration="6644000" />
+      <workItem from="1584137937134" duration="14749000" />
+      <workItem from="1584187629089" duration="1568000" />
+      <workItem from="1584220817183" duration="3142000" />
+      <workItem from="1584660702057" duration="5307000" />
+      <workItem from="1585090135049" duration="40000" />
+      <workItem from="1585253253746" duration="9224000" />
+      <workItem from="1585267256965" duration="7034000" />
+      <workItem from="1585855269669" duration="178000" />
+      <workItem from="1585865970427" duration="163000" />
+      <workItem from="1585866237263" duration="2970000" />
+      <workItem from="1585947807967" duration="1814000" />
+      <workItem from="1586046045794" duration="14000" />
+      <workItem from="1586549442241" duration="14545000" />
     </task>
     <servers />
   </component>

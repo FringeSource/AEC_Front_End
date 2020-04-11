@@ -1,0 +1,9 @@
+img{
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.rowBg{
+    background-image: url("../background/noir.jpg");
+}
