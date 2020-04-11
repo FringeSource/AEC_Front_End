@@ -4,16 +4,16 @@
 
 let motValide = false;
 
+$('#L5').hide();
 $('#L6').hide();
 $('#L7').hide();
 $('#L8').hide();
 $('#L9').hide();
 $('#L10').hide();
 $('#L11').hide();
-$('#L12').hide();
 
 function ContientLettresSeulement(str) {
-    return (/^[A-Za-z*]+$/.test(str));
+    return (/^[A-Za-z*=]+$/.test(str));
 }
 
 function slugify (str) {
@@ -26,7 +26,7 @@ function slugify (str) {
         'c' : 'ç|Ç',
     };
 
-    str = str.toLowerCase();
+    str = str.toUpperCase();
 
     for (let pattern in map) {
         str = str.replace(new RegExp(map[pattern], 'g'), pattern);
@@ -37,23 +37,28 @@ function slugify (str) {
 
 $('#boutonGo').click(function() {
     let motChoisi = slugify($('#motChoisi').val());
-    let lettre = [];
-
-    for(let i = 0; i < 12; i++){
-        lettre[i] = motChoisi[i];
-    }
 
     if (motChoisi.length < 3 || motChoisi.length > 12){
-        motValide = false;
         alert("Votre mot doit contenir minimum 3 lettres et maximum 12 lettres.");
+        motValide = false;
+        return false;
     }
 
     if (ContientLettresSeulement(motChoisi)){
+        $('.lettre').remove();
+        for(let i = 0; i < motChoisi.length; i++){
+            $('.rowBg').append('<div class="col lettre"><img src="Letters/'+ motChoisi[i] +'/' + motChoisi[i] + '1.jpg" class="img-fluid" id="L' + i +'"></div>')
+            if(motChoisi[i] === "*"){
+               $('#L' + i) .replaceWith('<div class="col lettre"><img src="Letters/CS/CS1.jpg" class="img-fluid" id="L' + i +'"></div>')
+            }
+        }
         motValide = true;
     }
+
     else{
         alert("Votre mot ne doit contenir que des lettres de l'alphabet ou le symbole * pour voir les caractères spéciaux.");
         motValide = false;
     }
+    return false;
 });
 
