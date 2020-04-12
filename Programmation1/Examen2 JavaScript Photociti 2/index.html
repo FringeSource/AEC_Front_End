@@ -66,13 +66,19 @@
 
 <div class="container-fluid p-0 d-print-block">
     <div class="row no-gutters text-center p-5 m-3 rowBg">
-        <div class="col px-2 lettre"><img src="Letters/S/S1.jpg" class="img-fluid" id="L0"></div>
-        <div class="col px-2 lettre"><img src="Letters/A/A1.jpg" class="img-fluid" id="L1"></div>
-        <div class="col px-2 lettre"><img src="Letters/L/L1.jpg" class="img-fluid" id="L2"></div>
-        <div class="col px-2 lettre"><img src="Letters/U/U1.jpg" class="img-fluid" id="L3"></div>
-        <div class="col px-2 lettre"><img src="Letters/T/T1.jpg" class="img-fluid" id="L4"></div>
+        <div class="col px-2 lettre"><img src="Letters/S/S1.jpg" class="img-fluid" alt="S" id="L0"></div>
+        <div class="col px-2 lettre"><img src="Letters/A/A1.jpg" class="img-fluid" alt="A" id="L1"></div>
+        <div class="col px-2 lettre"><img src="Letters/L/L1.jpg" class="img-fluid" alt="L" id="L2"></div>
+        <div class="col px-2 lettre"><img src="Letters/U/U1.jpg" class="img-fluid" alt="U" id="L3"></div>
+        <div class="col px-2 lettre"><img src="Letters/T/T1.jpg" class="img-fluid" alt="T" id="L4"></div>
     </div>
-    <div class="modal" tabindex="-1" role="dialog" id="carousel">
+</div>
+
+
+
+<!-- Section des modals et carousels pour chacune des lettres --!>
+<div class="container-fluid">
+    <div class="modal" tabindex="-1" role="dialog" id="carouselA">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header align-items-center">
@@ -82,34 +88,1151 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <div id="myCarousel" class="carousel slide" >
-                        <div class="carousel-inner row w-75 mx-auto" role="listbox" >
+                    <div id="myCarouselA" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
                             <div class="carousel-item col-4 active">
-                                <img class="img-fluid mx-auto d-block" src="Letters/A/A1.jpg" alt="">
+                                <img class="img-fluid mx-auto d-block" src="Letters/A/A1.jpg" alt="A">
                             </div>
                             <div class="carousel-item col-4">
-                                <img class="img-fluid mx-auto d-block" src="Letters/A/A2.jpg" alt="">
+                                <img class="img-fluid mx-auto d-block" src="Letters/A/A2.jpg" alt="A">
                             </div>
                             <div class="carousel-item col-4">
-                                <img class="img-fluid mx-auto d-block" src="Letters/A/A3.jpg" alt="">
+                                <img class="img-fluid mx-auto d-block" src="Letters/A/A3.jpg" alt="A">
                             </div>
                             <div class="carousel-item col-4">
-                                <img class="img-fluid mx-auto d-block" src="Letters/A/A4.jpg" alt="">
+                                <img class="img-fluid mx-auto d-block" src="Letters/A/A4.jpg" alt="A">
                             </div>
                             <div class="carousel-item col-4">
-                                <img class="img-fluid mx-auto d-block" src="Letters/A/A5.jpg" alt="">
+                                <img class="img-fluid mx-auto d-block" src="Letters/A/A5.jpg" alt="A">
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                        <a class="carousel-control-prev" href="#myCarouselA" data-slide="prev">
                             <span class="carousel-control-prev-icon"></span>
                         </a>
-                        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                        <a class="carousel-control-next" href="#myCarouselA" data-slide="next">
                             <span class="carousel-control-next-icon"></span>
                         </a>
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn">Sauvegarder</button>
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselB">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselB" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/B/B1.jpg" alt="B">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/B/B2.jpg" alt="B">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/B/B3.jpg" alt="B">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/B/B4.jpg" alt="B">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/B/B5.jpg" alt="B">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselB" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselB" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselC">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselC" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/C/C1.jpg" alt="C">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/C/C2.jpg" alt="C">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/C/C3.jpg" alt="C">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/C/C4.jpg" alt="C">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/C/C5.jpg" alt="C">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselC" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselC" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselD">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselD" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/D/D1.jpg" alt="D">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/D/D2.jpg" alt="D">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/D/D3.jpg" alt="D">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/D/D4.jpg" alt="D>
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/D/D5.jpg" alt="D">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselD" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselD" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselE">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselE" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/E/E1.jpg" alt="E">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/E/E2.jpg" alt="E">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/E/E3.jpg" alt="E">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/E/E4.jpg" alt="E">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/E/E5.jpg" alt="E">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselE" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselE" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselF">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselF" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/F/F1.jpg" alt="F">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/F/F2.jpg" alt="F">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/F/F3.jpg" alt="F">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/F/F4.jpg" alt="F">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/F/F5.jpg" alt="F">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselF" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselF" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselG">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselG" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/G/G1.jpg" alt="G">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/G/G2.jpg" alt="G">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/G/G3.jpg" alt="G">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/G/G4.jpg" alt="G">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/G/G5.jpg" alt="G">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselG" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselG" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselH">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselH" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/H/H1.jpg" alt="H">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/H/H2.jpg" alt="H">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/H/H3.jpg" alt="H">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/H/H4.jpg" alt="H">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/H/H5.jpg" alt="H">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselB" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselB" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselI">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselI" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/I/I1.jpg" alt="I">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/I/I2.jpg" alt="I">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/I/I3.jpg" alt="I">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/I/I4.jpg" alt="I">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/I/I5.jpg" alt="I">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselI" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselI" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselJ">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselJ" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/J/J1.jpg" alt="J">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/J/J2.jpg" alt="J">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/J/J3.jpg" alt="J">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/J/J4.jpg" alt="J">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/J/J5.jpg" alt="J">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselJ" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselJ" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselK">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselK" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/K/K1.jpg" alt="K">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/K/K2.jpg" alt="K">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/K/K3.jpg" alt="K">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/K/K4.jpg" alt="K">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/K/K5.jpg" alt="K">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselK" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselK" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselL">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselL" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/L/L1.jpg" alt="L">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/L/L2.jpg" alt="L">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/L/L3.jpg" alt="L">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/L/L4.jpg" alt="L">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/L/L5.jpg" alt="L">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselL" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselL" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselM">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselM" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/M/M1.jpg" alt="M">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/M/M2.jpg" alt="M">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/M/M3.jpg" alt="M">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/M/M4.jpg" alt="M">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/M/M5.jpg" alt="M">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselM" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselM" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselN">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselN" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/N/N1.jpg" alt="N">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/N/N2.jpg" alt="N">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/N/N3.jpg" alt="N">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/N/N4.jpg" alt="N">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/N/N5.jpg" alt="N">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselN" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselN" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselO">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselO" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/O/O1.jpg" alt="O">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/O/O2.jpg" alt="O">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/O/O3.jpg" alt="O">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/O/O4.jpg" alt="O">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/O/O5.jpg" alt="O">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselO" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselO" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselP">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselP" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/P/P1.jpg" alt="P">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/P/P2.jpg" alt="P">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/P/P3.jpg" alt="P">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/P/P4.jpg" alt="P">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/P/P5.jpg" alt="P">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselP" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselP" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselQ">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselQ" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/Q/Q1.jpg" alt="Q">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/Q/Q2.jpg" alt="Q">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/Q/Q3.jpg" alt="Q">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/Q/Q4.jpg" alt="Q">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/Q/Q5.jpg" alt="Q">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselQ" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselQ" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselR">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselR" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/R/R1.jpg" alt="R">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/R/R2.jpg" alt="R">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/R/R3.jpg" alt="R">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/R/R4.jpg" alt="R">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/R/R5.jpg" alt="R">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselR" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselR" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselS">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselS" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/S/S1.jpg" alt="S">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/S/S2.jpg" alt="S">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/S/S3.jpg" alt="S">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/S/S4.jpg" alt="S">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/S/S5.jpg" alt="S">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselS" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselS" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselT">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselT" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/T/T1.jpg" alt="T">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/T/T2.jpg" alt="T">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/T/T3.jpg" alt="T">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/T/T4.jpg" alt="T">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/T/T5.jpg" alt="T">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselT" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselT" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselU">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselU" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/U/U1.jpg" alt="U">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/U/U2.jpg" alt="U">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/U/U3.jpg" alt="U">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/U/U4.jpg" alt="U">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/U/U5.jpg" alt="U">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselU" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselU" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselV">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselV" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/V/V1.jpg" alt="V">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/V/V2.jpg" alt="V">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/V/V3.jpg" alt="V">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/V/V4.jpg" alt="V">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/V/V5.jpg" alt="V">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselV" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselV" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselW">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselW" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/W/W1.jpg" alt="W">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/W/W2.jpg" alt="W">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/W/W3.jpg" alt="W">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/W/W4.jpg" alt="W">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/W/W5.jpg" alt="W">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselW" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselW" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselX">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselX" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/X/X1.jpg" alt="X">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/X/X2.jpg" alt="X">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/X/X3.jpg" alt="X">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/X/X4.jpg" alt="X">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/X/X5.jpg" alt="X">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselX" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselX" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselB">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselB" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/B/B1.jpg" alt="B">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/B/B2.jpg" alt="B">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/B/B3.jpg" alt="B">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/B/B4.jpg" alt="B">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/B/B5.jpg" alt="B">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselB" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselB" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselB">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselB" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/B/B1.jpg" alt="B">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/B/B2.jpg" alt="B">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/B/B3.jpg" alt="B">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/B/B4.jpg" alt="B">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/B/B5.jpg" alt="B">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselB" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselB" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn " data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="carouselB">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Sélectionnez votre photo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="myCarouselB" class="carousel slide">
+                        <div class="carousel-inner row w-75 mx-auto" role="listbox">
+                            <div class="carousel-item col-4 active">
+                                <img class="img-fluid mx-auto d-block" src="Letters/B/B1.jpg" alt="B">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/B/B2.jpg" alt="B">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/B/B3.jpg" alt="B">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/B/B4.jpg" alt="B">
+                            </div>
+                            <div class="carousel-item col-4">
+                                <img class="img-fluid mx-auto d-block" src="Letters/B/B5.jpg" alt="B">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarouselB" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarouselB" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
                     <button type="button" class="btn " data-dismiss="modal">Fermer</button>
                 </div>
             </div>

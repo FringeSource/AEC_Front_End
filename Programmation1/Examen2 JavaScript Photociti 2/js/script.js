@@ -39,9 +39,9 @@ $('#boutonGo').click(function() {
     if (ContientLettresSeulement(motChoisi)){
         $('.lettre').remove();
         for(let i = 0; i < motChoisi.length; i++){
-            $('.rowBg').append('<div class="col px-2 lettre"><img src="Letters/'+ motChoisi[i] +'/' + motChoisi[i] + '1.jpg" class="img-fluid" id="L' + i +'"></div>')
+            $('.rowBg').append('<div class="col px-2 lettre"><img src="Letters/'+ motChoisi[i] +'/' + motChoisi[i] + '1.jpg" class="img-fluid" alt="'+ motChoisi[i] + '" id="L' + i +'"></div>');
             if(motChoisi[i] === "*"){
-               $('#L' + i) .replaceWith('<img src="Letters/CS/CS1.jpg" class="img-fluid" id="L' + i +'">')
+               $('#L' + i) .replaceWith('<img src="Letters/CS/CS1.jpg" class="img-fluid" alt="*" id="L' + i +'">');
             }
         }
         motValide = true;
@@ -82,12 +82,24 @@ $('#fondRouge').click(function() {
     $('.rowBg').css('background-image', 'url("background/rouge.jpg")');
 });
 
-$(document).on('click', '.img-fluid', function() {
-    $('#carousel').modal('toggle');
-    if()
+let idImage1;
+$(document).on('click', '.rowBg .img-fluid', function() {
+    let altImg = $(this).attr("alt");
+    idImage1 = $(this).attr("id");
+
+    if(altImg === "A"){
+        $('#carouselA').modal('toggle');
+    }
+    else if(altImg === "B"){
+        $('#carouselB').modal('toggle');
+    }
+    $('.carousel-inner .img-fluid').click(function() {
+        let srcImage2 = $(this).attr("src");
+        $('#'+ idImage1).attr('src', srcImage2);
+    });
 });
 
-$('#carousel').on('slide.bs.carousel', function (e) {
+$('#carouselB').on('slide.bs.carousel', function (e) {
 
     let $e = $(e.relatedTarget);
     let idx = $e.index();
