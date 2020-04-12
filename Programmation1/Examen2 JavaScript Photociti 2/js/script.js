@@ -47,9 +47,9 @@ $('#boutonGo').click(function() {
     if (ContientLettresSeulement(motChoisi)){
         $('.lettre').remove();
         for(let i = 0; i < motChoisi.length; i++){
-            $('.rowBg').append('<div class="col lettre"><img src="Letters/'+ motChoisi[i] +'/' + motChoisi[i] + '1.jpg" class="img-fluid" id="L' + i +'"></div>')
+            $('.rowBg').append('<div class="col px-2 lettre"><img src="Letters/'+ motChoisi[i] +'/' + motChoisi[i] + '1.jpg" class="img-fluid" id="L' + i +'"></div>')
             if(motChoisi[i] === "*"){
-               $('#L' + i) .replaceWith('<div class="col lettre"><img src="Letters/CS/CS1.jpg" class="img-fluid" id="L' + i +'"></div>')
+               $('#L' + i) .replaceWith('<img src="Letters/CS/CS1.jpg" class="img-fluid" id="L' + i +'">')
             }
         }
         motValide = true;
@@ -62,3 +62,30 @@ $('#boutonGo').click(function() {
     return false;
 });
 
+$('#fondBlanc').click(function() {
+    $('.rowBg').css('background-image', 'url("background/blanc.jpg")');
+});
+
+$('#fondBleu').click(function() {
+    $('.rowBg').css('background-image', 'url("background/bleu.jpg")');
+});
+
+$('#fondBleuFonce').click(function() {
+    $('.rowBg').css('background-image', 'url("background/bleuFonce.jpg")');
+});
+
+$('#fondGris').click(function() {
+    $('.rowBg').css('background-image', 'url("background/gris.jpg")');
+});
+
+$('#fondNoir').click(function() {
+    $('.rowBg').css('background-image', 'url("background/noir.jpg")');
+});
+
+$('#fondRose').click(function() {
+    $('.rowBg').css('background-image', 'url("background/rose.jpg")');
+});
+
+$('#fondRouge').click(function() {
+    $('.rowBg').css('background-image', 'url("background/rouge.jpg")');
+});

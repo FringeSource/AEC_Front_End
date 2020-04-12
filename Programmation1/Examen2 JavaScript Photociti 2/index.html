@@ -13,22 +13,23 @@
     <link rel="icon" type="image/png" href="images/favicon.png" />
 </head>
 <body>
-<div class="container-fluid">
-    <div class="row text-center m-3">
-        <div class="col-12">
+<div class="container-fluid p-0 d-print-none">
+    <div class="row text-center">
+        <div class="col">
             <h1><strong>Projet final Programmation Web 1</strong></h1>
             <h2>par Cédric Vigneau</h2>
         </div>
     </div>
 </div>
+
 <form>
-    <div class="container-fluid d-inline">
-        <div class="row">
-            <div class="col-12 offset-2">
-                <h3>Entrez un mot</h3>
+    <div class="container-fluid p-0 d-print-none">
+        <div class="row no-gutters">
+            <div class="col offset-2">
+                <h3>Étape 1 - Entrez un mot</h3>
             </div>
         </div>
-        <div class="row">
+        <div class="row no-gutters">
             <div class="col-8 offset-2 p-0">
                 <input type="text" class="form-control" id="motChoisi" aria-describedby="Lettres" placeholder="Un mot entre 3 et 12 caractères">
                 <label for="motChoisi">Utilisez * pour les caractères spéciaux</label>
@@ -39,13 +40,29 @@
         </div>
     </div>
 </form>
-<div class="container-fluid">
+
+<div class="container-fluid p-0 d-print-none">
+    <div class="row no-gutters">
+        <div class="col offset-2">
+            <h3>Étape 2 - Sélectionnez une couleur de fond</h3>
+            <div id="fondBlanc" class="d-inline-block"></div>
+            <div id="fondBleu" class="d-inline-block"></div>
+            <div id="fondBleuFonce" class="d-inline-block"></div>
+            <div id="fondGris" class="d-inline-block"></div>
+            <div id="fondNoir" class="d-inline-block"></div>
+            <div id="fondRose" class="d-inline-block"></div>
+            <div id="fondRouge" class="d-inline-block"></div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid p-0 d-print-block">
     <div class="row no-gutters text-center p-5 m-5 rowBg">
-        <div class="col lettre"><img src="Letters/S/S1.jpg" class="img-fluid" id="L0"></div>
-        <div class="col lettre"><img src="Letters/A/A1.jpg" class="img-fluid" id="L1"></div>
-        <div class="col lettre"><img src="Letters/L/L1.jpg" class="img-fluid" id="L2"></div>
-        <div class="col lettre"><img src="Letters/U/U1.jpg" class="img-fluid" id="L3"></div>
-        <div class="col lettre"><img src="Letters/T/T1.jpg" class="img-fluid" id="L4"></div>
+        <div class="col px-2 lettre"><img src="Letters/S/S1.jpg" class="img-fluid" id="L0"></div>
+        <div class="col px-2 lettre"><img src="Letters/A/A1.jpg" class="img-fluid" id="L1"></div>
+        <div class="col px-2 lettre"><img src="Letters/L/L1.jpg" class="img-fluid" id="L2"></div>
+        <div class="col px-2 lettre"><img src="Letters/U/U1.jpg" class="img-fluid" id="L3"></div>
+        <div class="col px-2 lettre"><img src="Letters/T/T1.jpg" class="img-fluid" id="L4"></div>
     </div>
 </div>
 

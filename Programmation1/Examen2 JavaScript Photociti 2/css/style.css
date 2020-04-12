@@ -1,3 +1,7 @@
+html, body{
+    overflow-x: hidden;
+}
+
 img{
     border-style: solid;
     border-color: white;
@@ -6,4 +10,74 @@ img{
 
 .rowBg{
     background-image: url("../background/noir.jpg");
+}
+
+#fondBlanc{
+    width: 50px;
+    height: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+#fondBleu{
+    width: 50px;
+    height: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: #526d88;
+    cursor: pointer;
+}
+
+#fondBleuFonce{
+    width: 50px;
+    height: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: #43485c;
+    cursor: pointer;
+}
+
+#fondGris{
+    width: 50px;
+    height: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: #736968;
+    cursor: pointer;
+}
+
+#fondNoir{
+    width: 50px;
+    height: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: #0c0c0c;
+    cursor: pointer;
+}
+
+#fondRose{
+    width: 50px;
+    height: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: #977e90;
+    cursor: pointer;
+}
+
+#fondRouge{
+    width: 50px;
+    height: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: #dd2d40;
+    cursor: pointer;
 }
