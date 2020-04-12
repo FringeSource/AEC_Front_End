@@ -93,6 +93,81 @@ $(document).on('click', '.rowBg .img-fluid', function() {
     else if(altImg === "B"){
         $('#carouselB').modal('toggle');
     }
+    else if(altImg === "C"){
+        $('#carouselC').modal('toggle');
+    }
+    else if(altImg === "D"){
+        $('#carouselD').modal('toggle');
+    }
+    else if(altImg === "E"){
+        $('#carouselE').modal('toggle');
+    }
+    else if(altImg === "F"){
+        $('#carouselF').modal('toggle');
+    }
+    else if(altImg === "G"){
+        $('#carouselG').modal('toggle');
+    }
+    else if(altImg === "H"){
+        $('#carouselH').modal('toggle');
+    }
+    else if(altImg === "I"){
+        $('#carouselI').modal('toggle');
+    }
+    else if(altImg === "J"){
+        $('#carouselJ').modal('toggle');
+    }
+    else if(altImg === "K"){
+        $('#carouselK').modal('toggle');
+    }
+    else if(altImg === "L"){
+        $('#carouselL').modal('toggle');
+    }
+    else if(altImg === "M"){
+        $('#carouselM').modal('toggle');
+    }
+    else if(altImg === "N"){
+        $('#carouselN').modal('toggle');
+    }
+    else if(altImg === "O"){
+        $('#carouselO').modal('toggle');
+    }
+    else if(altImg === "P"){
+        $('#carouselP').modal('toggle');
+    }
+    else if(altImg === "Q"){
+        $('#carouselQ').modal('toggle');
+    }
+    else if(altImg === "R"){
+        $('#carouselR').modal('toggle');
+    }
+    else if(altImg === "S"){
+        $('#carouselS').modal('toggle');
+    }
+    else if(altImg === "T"){
+        $('#carouselT').modal('toggle');
+    }
+    else if(altImg === "U"){
+        $('#carouselU').modal('toggle');
+    }
+    else if(altImg === "V"){
+        $('#carouselV').modal('toggle');
+    }
+    else if(altImg === "W"){
+        $('#carouselW').modal('toggle');
+    }
+    else if(altImg === "X"){
+        $('#carouselX').modal('toggle');
+    }
+    else if(altImg === "Y"){
+        $('#carouselY').modal('toggle');
+    }
+    else if(altImg === "Z"){
+        $('#carouselZ').modal('toggle');
+    }
+    else if(altImg === "*"){
+        $('#carouselCS').modal('toggle');
+    }
     $('.carousel-inner .img-fluid').click(function() {
         let srcImage2 = $(this).attr("src");
         $('#'+ idImage1).attr('src', srcImage2);
