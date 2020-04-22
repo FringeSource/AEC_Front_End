@@ -48,7 +48,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Intégration2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
@@ -110,7 +110,11 @@
       <workItem from="1585855449625" duration="18796000" />
       <workItem from="1585947821950" duration="43086000" />
       <workItem from="1586046061955" duration="220000" />
-      <workItem from="1586058330077" duration="3756000" />
+      <workItem from="1586058330077" duration="4316000" />
+      <workItem from="1586549423099" duration="11000" />
+      <workItem from="1586647873919" duration="603000" />
+      <workItem from="1586651795594" duration="2251000" />
+      <workItem from="1587213461151" duration="2006000" />
     </task>
     <servers />
   </component>
